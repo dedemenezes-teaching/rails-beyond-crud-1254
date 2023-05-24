@@ -1,0 +1,7 @@
+<h1>Top restaurants</h1>
+
+<% @restaurants.each do |restaurant| %>
+  <%= render 'restaurant', restaurant: restaurant %>
+<% end %>
+<%#= render @restaurants %>
+<%# Render exactly the same as above %>
